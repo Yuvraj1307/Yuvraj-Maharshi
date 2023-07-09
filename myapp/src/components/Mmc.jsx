@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../style/MultimediaContainer.css';  
-const SpecialBox = ({ media }) => {
+const SpecialBox = () => {
   const [isFavorite, setIsFavorite] = useState(false);
   const [{impval,submitedval},setLink]=useState({impval:"",submitedval:""})
  
